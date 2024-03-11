@@ -1,4 +1,4 @@
-const Alphabet = [
+const alphabet = [
     { letter: 'A', sound: require('../assets/sound/a.mp3') },
     { letter: 'B', sound: require('../assets/sound/b.mp3') },
     { letter: 'C', sound: require('../assets/sound/c.mp3') },
@@ -27,4 +27,4 @@ const Alphabet = [
     { letter: 'Z', sound: require('../assets/sound/z.mp3') },
 ];
 
-export default Alphabet
+export default alphabet
