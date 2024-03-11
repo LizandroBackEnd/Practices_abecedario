@@ -5,8 +5,10 @@ import Card from "./Card";
 export  default  function layout() {
     return (
         <View>
-            <Text>Hola !!!</Text>
-            <Card />
+            {alphabet.map((letter) => (
+                <Card {...letter}/>
+            ))}
+
         </View>
     );
 }

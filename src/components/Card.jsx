@@ -1,10 +1,12 @@
-import {Text, View} from "react-native";
+import {Text, Touchable, TouchableOpacity, View} from "react-native";
 
 
-export default function Card (){
+export default function Card ({letter, sound, color}){
     return (
         <View>
-        <Text> Hola 2</Text>
+        <TouchableOpacity>
+            <Text> {letter} </Text>
+        </TouchableOpacity>
         </View>
     )
 }
