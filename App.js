@@ -6,6 +6,7 @@ import Layout from  './src/components/Layout';
 export default function App() {
   return (
     <View style={styles.container}>
+
       <Layout />
       <StatusBar style="auto" />
     </View>
